@@ -9,7 +9,7 @@
 
 @include('Includes.GallerySmall')
 
-@include('Includes.About')
+@include('Includes.About.Main')
 
 @include('Includes.Staff.Main')
 
