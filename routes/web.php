@@ -21,7 +21,7 @@ Route::get('/apply', [PageController::class, 'McForum']);
 Route::get('/wiki', [PageController::class, 'Wiki'])->name('index');
 Route::get('/blog', [PageController::class, 'Blog'])->name('index');
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('Pages.Home.index');
   
 });  
