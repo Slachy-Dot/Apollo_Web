@@ -23,7 +23,5 @@ Route::get('/blog', [PageController::class, 'Blog'])->name('index');
 
 Route::get('/home', function () {
     return view('Pages.Home.index');
-
-Route::get('/home', function () {
-    return view('Pages.Dynmap.index');    
-});
+  
+});  

@@ -13,7 +13,6 @@
 <br />
 <div align="center">
   <a href="https://worldofapollo.com/">
-    <img src="Apollo_logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">The World of Apollo </h3>
