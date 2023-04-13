@@ -155,7 +155,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.md` for more information.
+Distributed under GNU GENERAL PUBLIC LICENSE. See `LICENSE.md` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -179,18 +179,18 @@ Project Link: [https://github.com/Slachy-Dot/Apollo_Web](https://github.com/Slac
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Slachy-Dot/Apollo_Web.svg?style=for-the-badge
 [contributors-url]: https://github.com/Slachy-Dot/Apollo_Web/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Slachy-Dot/Apollo_Web.svg?style=for-the-badge
 [forks-url]: https://github.com/Slachy-Dot/Apollo_Web/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Slachy-Dot/Apollo_Web.svg?style=for-the-badge
 [stars-url]: https://github.com/Slachy-Dot/Apollo_Web/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Slachy-Dot/Apollo_Web.svg?style=for-the-badge
 [issues-url]: https://github.com/Slachy-Dot/Apollo_Web/issues
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.md
+[license-shield]: https://img.shields.io/github/license/Slachy-Dot/Apollo_Web.svg?style=for-the-badge
+[license-url]: https://github.com/Slachy-Dot/Apollo_Web/LICENSE.md
 [product-screenshot]: Logo.png
