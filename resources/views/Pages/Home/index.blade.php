@@ -11,7 +11,7 @@
 
 @include('Includes.About')
 
-@include('Includes.StaffMembers')
+@include('Includes.Staff.Main')
 
 @endsection
 
