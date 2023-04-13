@@ -1,4 +1,4 @@
-# The_World_of_Apollo
+#[![Product Name Screen Shot][product-screenshot]](https://worldofapollo.com)
 
 <div id="top"></div>
 
@@ -21,14 +21,14 @@
   <p align="center">
     A open-source community website!
     <br />
-    <a href="https://github.com/Slachy-Dot/The_World_of_Apollo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Slachy-Dot/Apollo_Web"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://worldofapollo.com/">'SOON' View Demo</a>
     ·
-    <a href="https://github.com/Slachy-Dot/The_World_of_Apollo/issues">Report Bug</a>
+    <a href="https://github.com/Slachy-Dot/Apollo_Web/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Slachy-Dot/The_World_of_Apollo/issues">Request Feature</a>
+    <a href="https://github.com/Slachy-Dot/Apollo_Web/issues">Request Feature</a>
   </p>
 </div>
 
@@ -65,37 +65,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://worldofapollo.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+The World of Apollo is a community driven project that mainly focuses on gaming over time we have find the need to build
+build our own website that has all features a gaming community needs.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+* In the past we have hosted our website on different platforms and where very limted it things you could build
+* Most sites we have used are no longer around 
+* So lets take things on own control and build everything fresh :smile:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
 * [Laravel php framework](https://laravel.com/)
-- [Jetstream]()
-- [livewire]()
-- [riari-forum]()
-- [form-components]()
-- [spatie permission]()
-
+- [Jetstream](https://jetstream.laravel.com/3.x/introduction.html)
 * [TailwindCss](https://tailwindcss.com/)
 - [daisyui](https://daisyui.com/)
 
-* [Bootstrap 5]()
-- [some parts can be used by default by framework but goal is to not use bootstrap at all.]()
 
         
 
@@ -103,9 +89,9 @@ Use the `BLANK_README.md` to get started.
 
 ### Prerequisites
 
-* [php-8.0]
+* [php-8.1]
 * [xampp] / [apache/nginx]
-* [mysql] / [sqlite]
+* [mysql] / [sqlite] / [Mysql]
 * [npm]
 * [composer]
 
@@ -116,7 +102,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Slachy-Dot/The_World_of_Apollo.git
+   git clone https://github.com/Slachy-Dot/Apollo_Web.git
    ```
 2. Install NPM packages
    ```sh
@@ -180,7 +166,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 Slachy - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/Slachy-Dot/The_World_of_Apollo](https://github.com/Slachy-Dot/The_World_of_Apollo)
+Project Link: [https://github.com/Slachy-Dot/Apollo_Web](https://github.com/Slachy-Dot/Apollo_Web)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,16 +180,16 @@ Project Link: [https://github.com/Slachy-Dot/The_World_of_Apollo](https://github
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/Slachy-Dot/The_World_of_Apollo/graphs/contributors
+[contributors-url]: https://github.com/Slachy-Dot/Apollo_Web/graphs/contributors
 
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/Slachy-Dot/The_World_of_Apollo/network/members
+[forks-url]: https://github.com/Slachy-Dot/Apollo_Web/network/members
 
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/Slachy-Dot/The_World_of_Apollo/stargazers
+[stars-url]: https://github.com/Slachy-Dot/Apollo_Web/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/Slachy-Dot/The_World_of_Apollo/issues
+[issues-url]: https://github.com/Slachy-Dot/Apollo_Web/issues
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.md
