@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
     <head>
         <meta charset="utf-8">
@@ -13,9 +13,17 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'Apollo') }}</title>
 
-        <!-- <script defer src="https://unpkg.com/alpinejs@3.7.1/dist/cdn.min.js"></script> -->
+        <!-- Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+        <!-- Stylesheet -->
+        @vite('resources/js/app.js')
+
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}" defer></script>
+
         <script>
             fetch('https://api.mcsrvstat.us/2/Worldofapollo.com')
                 .then(response => response.json())
@@ -46,7 +54,7 @@
          @yield('content')
 
         <div class="mt-20"></div>
-
+        
         @include(' Includes.Footer ')
 
         <script src="https://leonardosnt.github.io/mc-player-counter/dist/mc-player-counter.min.js"></script>
