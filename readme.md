@@ -90,26 +90,28 @@ Here's why:
 
 * [php-8.1]
 * [xampp] / [apache/nginx]
-* [mysql] / [sqlite] / [Mysql]
+* [mysql] / [sqlite]
 * [npm]
 * [composer]
-
+* [Nodejs]
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can install and setup a dev environment. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
    git clone https://github.com/Slachy-Dot/Apollo_Web.git
    ```
-2. Install NPM packages
+2. composer install
    ```sh
    npm install
    ```
-3. Install NPM packages
+3. launch webserver: 
+   php artisan serve 
    ```sh
-   composer install
+   Auto build application on file editing
+   npm run watch --watch-options-poll=1000
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
