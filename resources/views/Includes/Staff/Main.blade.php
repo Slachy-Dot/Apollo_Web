@@ -9,5 +9,7 @@
         
         @include('Includes.Staff.Mods')
 
+        @include('Includes.Staff.Helpers')
+   
    </div>
 </section>
