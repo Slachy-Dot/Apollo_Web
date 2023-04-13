@@ -103,14 +103,16 @@ _Below is an example of how you can install and setup a dev environment. This te
    ```sh
    git clone https://github.com/Slachy-Dot/Apollo_Web.git
    ```
-2. composer install
+2. Install all dependencies
    ```sh
-   npm install
+   composer install
    ```
-3. launch webserver: 
-   php artisan serve 
+3. launch webserver
    ```sh
-   Auto build application on file editing
+   php artisan serve 
+   ```
+4. Auto build application on file editing
+   ```sh
    npm run watch --watch-options-poll=1000
    ```
 

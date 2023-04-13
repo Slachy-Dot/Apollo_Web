@@ -13,7 +13,7 @@
                         class="px-3 font-serif text-sm font-semibold text-gray-100 place-self-center hover:text-indigo-400"><i
 
                             class="fab fa-teamspeak"></i> youtube</a>
-
+                            
                     <a href="#"
                         class="px-3 font-serif text-sm font-semibold text-gray-100 place-self-center hover:text-indigo-400"><i
 
@@ -25,9 +25,7 @@
         <hr class="h-px my-6 bg-gray-300 border-none">
 
         <div>
-
-            <p class="text-center text-gray-100">© World of Apollo - All rights reserved</p>
-
+            <p class="text-center text-gray-100">World of Apollo </p>
         </div>
 
     </div>

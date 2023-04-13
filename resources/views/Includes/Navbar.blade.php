@@ -24,30 +24,11 @@
                         <!--Hide on md show from lg screen  -->
 
                         <a href="https://worldofapollo.com/apply" class="hidden lg:inline-flex my-nav-items"> Apply </a>
-                        <!--                        <a href="./wiki" class="hidden lg:inline-flex my-nav-items"> Wiki </a>
+                        <!--                        <a href="./wiki" class="hidden lg:inline-flex my-nav-items"> Wiki </a> -->
 
 
-                        <a href="https://worldofapollo.com/discord" class="hidden sm:inline-flex my-nav-items"> Discord
+                        <a href="https://worldofapollo.com/discord" class="hidden lg:inline-flex my-nav-items"> Discord
                         </a>
-
-                        <a href="https://worldofapollo.enjin.com/serverstats"
-                            class="hidden lg:inline-flex my-nav-items"> Stats </a> -->
-
-
-                        @if(Route::has('login'))
-                            @auth
-                                <a href="{{ url('/dashboard') }}"
-                                    class="hidden sm:inline-flex my-nav-items">Dashboard</a>
-                            @else
-                                <a href="{{ route('login') }}"
-                                    class="hidden sm:inline-flex my-nav-items">Log in</a>
-
-                                @if(Route::has('register'))
-                                    <a href="{{ route('register') }}"
-                                        class="hidden sm:inline-flex my-nav-items">Register</a>
-                                @endif
-                            @endauth
-                        @endif
 
                         <div class="inline-flex my-0 my-nav-items dropdown dropdown-end" tabindex="0">
                             <div tabindex="0">
@@ -65,17 +46,6 @@
                                 </li>
                                 <li>
                                     <a href="https://worldofapollo.com/apply"> Apply </a>
-                                </li>
-                                <li>
-                                    <a href="/wiki"> Wiki </a>
-                                </li>
-
-                                <li>
-                                    <a href="/blog"> Blog </a>
-                                </li>
-
-                                <li>
-                                    <a href="https://worldofapollo.enjin.com/serverstats"> Stats </a>
                                 </li>
                             </ul>
                         </div>

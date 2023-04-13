@@ -50,7 +50,7 @@
                                 <img loading=lazy class="grow card-item-staff-img"
                                     src="https://minotar.net/avatar/stephayy/100.png" alt="avatar" />
                                 <div class="mt-2">
-                                    <h3 class="text-lg font-medium text-blue-600">stephayy</h3>
+                                    <h3 class="text-sm font-medium">stephayy</h3>
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@
                                 <img loading=lazy class="grow card-item-staff-img"
                                     src="https://minotar.net/avatar/Candleliight/100.png" alt="avatar" />
                                 <div class="mt-2">
-                                    <h3 class="text-lg font-medium text-blue-600">Candleliight</h3>
+                                    <h3 class="text-sm font-medium">Candleliight</h3>
                                 </div>
                             </div>
 
@@ -66,7 +66,7 @@
                                 <img loading=lazy class="grow card-item-staff-img"
                                     src="https://minotar.net/avatar/QueenBrit/100.png" alt="avatar" />
                                 <div class="mt-2">
-                                    <h3 class="text-lg font-medium text-blue-600"> QueenBrit </h3>
+                                    <h3 class="text-sm font-medium"> QueenBrit </h3>
                                 </div>
                             </div>
 
@@ -74,7 +74,7 @@
                                 <img loading=lazy class="grow card-item-staff-img"
                                     src="https://minotar.net/avatar/Junedude602/100.png" alt="avatar" />
                                 <div class="mt-2">
-                                    <h3 class="text-lg font-medium text-blue-600">Junedude</h3>
+                                    <h3 class="text-sm font-medium">Junedude</h3>
                                 </div>
                             </div>
                         </div>
