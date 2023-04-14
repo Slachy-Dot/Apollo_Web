@@ -30,9 +30,9 @@
                 permanently ban from all Apollo related games and communication with our community members.</p>
         </div>
 
-    @include('Includes.About.ServerSpecs')
-    @include('Includes.About.GuestMode')
-    @include('Includes.About.Guidelines')
+    @include('Modules.Includes.About.ServerSpecs')
+    @include('Modules.Includes.About.GuestMode')
+    @include('Modules.Includes.About.Guidelines')
 
     </div>
 

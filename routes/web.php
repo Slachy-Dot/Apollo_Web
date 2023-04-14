@@ -13,20 +13,21 @@ use App\Http\Controllers\PageController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/home', [PageController::class, 'Home'])->name('index');
+Route::view('/', 'Pages.Home.index')->name('home');
 
-Route::get('/', function () {
-    return view('Pages.Home.index');
-});  
+Route::get('home', [PageController::class, 'Home'])->name('index');
+
 
 Route::get('/online', function () {
     return view('Pages.Online_Players.index');
 });
 
-Route::get('/discord', [PageController::class, 'Discord']);
-Route::get('/apply', [PageController::class, 'McForum']);
 
-Route::get('/wiki', [PageController::class, 'Wiki'])->name('index');
-Route::get('/blog', [PageController::class, 'Blog'])->name('index');
+Route::get('/discord', [PageController::class, 'Discord'])->name('discord');
 
-Route::get('/dynmap', [PageController::class, 'Dynmap'])->name('index');
+Route::get('/apply', [PageController::class, 'McForum'])->name('apply');
+
+Route::get('/wiki', [PageController::class, 'Wiki'])->name('wiki');
+Route::get('/blog', [PageController::class, 'Blog'])->name('blog');
+
+Route::get('/dynmap', [PageController::class, 'dynmap'])->name('dynmap');

@@ -1,17 +1,17 @@
-@extends(' layouts.Apollo ')
+@extends('Modules.layouts.Apollo ')
 
 @section('content')
 
 
 
 <!--Online player and server name -->
-@include('Includes.OnlinePlayers')
+@include('Modules.Includes.Core.OnlinePlayers')
 
-@include('Includes.GallerySmall')
+@include('Modules.Includes.GallerySmall')
 
-@include('Includes.About.Main')
+@include('Modules.Includes.About.Main')
 
-@include('Includes.Staff.Main')
+@include('Modules.Includes.Staff.Main')
 
 @endsection
 

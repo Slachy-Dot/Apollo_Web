@@ -29,6 +29,10 @@ class PageController extends Controller
         return view('Pages.Wiki.index');
     }
    /** Apollo Wiki-Page */
+    public function Blog(){
+        return view('Pages.Blog.index');
+    }    
+   /** Apollo Wiki-Page */
     public function Dynmap(){
         return view('Pages.Dynmap.index');
     }    

@@ -41,7 +41,7 @@
 
     <header>
 
-        @include(' Includes.Navbar ')
+        @include('Modules.Includes.Core.Navbar ')
 
     </header>
 
@@ -55,7 +55,7 @@
 
         <div class="mt-20"></div>
         
-        @include(' Includes.Footer ')
+        @include('Modules.Includes.Footer ')
 
         <script src="https://leonardosnt.github.io/mc-player-counter/dist/mc-player-counter.min.js"></script>
     </body>

@@ -20,7 +20,7 @@
                         <img loading=lazy class="grow card-item-staff-img"
                             src="https://minotar.net/avatar/Rockzo/100.png" alt="avatar" />
                         <div class="mt-2">
-                        <h3">Rockzo</h3></div>
+                        <h3>Rockzo</h3></div>
                     </div>
                 </div>
             </div>
