@@ -10,19 +10,18 @@
         <meta name="robots" content="index, nofollow">
         <meta name="revisit-after" content="60 days">
         <meta name="author" content="Slachy_dot">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Apollo') }}</title>
-
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Stylesheet -->
         @vite('resources/js/app.js')
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+        <script src="https://leonardosnt.github.io/mc-player-counter/dist/mc-player-counter.min.js" defer></script>
 
         <script>
             fetch('https://api.mcsrvstat.us/2/Worldofapollo.com')
@@ -40,23 +39,22 @@
     </head>
 
     <header>
-
         @include('Modules.Includes.Core.Navbar ')
-
     </header>
 
     <!--Web background-->
+    <body style="background-image: url(/storage/images/main/background.jpg);" class="flex flex-col min-h-screen bg-cover lg:">
 
-    <body style="background-image: url(/storage/images/main/background.jpg);" class="min-h-screen bg-cover lg:">
-
-        <div id="app">
+    <!--Addes pages --> 
+        <div id="app" class="flex-1">
 
          @yield('content')
 
-        <div class="mt-20"></div>
-        
-        @include('Modules.Includes.Footer ')
+      
+    </div>
+    @include('Modules.Includes.Footer ')
 
-        <script src="https://leonardosnt.github.io/mc-player-counter/dist/mc-player-counter.min.js"></script>
-    </body>
+  </body>
 </html>
+
+
