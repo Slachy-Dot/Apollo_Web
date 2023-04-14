@@ -32,7 +32,14 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
+/* The following styles are for the footer element */
+footer {
+  flex-shrink: 0;
+}
 
 
 
@@ -62,4 +69,8 @@
 
 .sec#home { /* Show #home by default */
   display: block;
+}
+
+.server-hardware {
+  margin: 2px 0 6px 2px;
 }

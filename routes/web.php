@@ -31,3 +31,7 @@ Route::get('/wiki', [PageController::class, 'Wiki'])->name('wiki');
 Route::get('/blog', [PageController::class, 'Blog'])->name('blog');
 
 Route::get('/dynmap', [PageController::class, 'dynmap'])->name('dynmap');
+
+Route::get('/donate', function () {
+    return view('Pages.Donate.index');
+});
