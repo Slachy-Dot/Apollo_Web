@@ -1,0 +1,4 @@
+{"currentcount": 0,"hasStorm": false,"players": []
+,"isThundering": true,"confighash": 1917205194,"servertime": 1000,"updates": [{"msg": "markerupdated","x": -59.00,"y": 29.00,"z": -31.00,"id": "_spawn_Hub","label": "Spawn","icon": "world","set": "markers","markup": true,"desc": null,"dim": "16x16","minzoom": -1,"maxzoom": -1,"ctype": "markers","type": "component","timestamp": 1681430381276}
+]
+,"timestamp": 1681430383427}

@@ -1,0 +1,5 @@
+{"currentcount": 1,"hasStorm": false,"players": [{"world": "Lobby","armor": 0,"name": "Slachy_Dot","x": -59.00,"y": 30.00,"health": 0,"z": -31.00,"sort": 1,"type": "player","account": "Slachy_Dot"}
+]
+,"isThundering": true,"confighash": -1868706187,"servertime": 15000,"updates": [{"msg": "markerupdated","x": -59.00,"y": 29.00,"z": -31.00,"id": "_spawn_Lobby","label": "Spawn","icon": "world","set": "markers","markup": true,"desc": null,"dim": "16x16","minzoom": -1,"maxzoom": -1,"ctype": "markers","type": "component","timestamp": 1677463592280}
+]
+,"timestamp": 1677463596031}

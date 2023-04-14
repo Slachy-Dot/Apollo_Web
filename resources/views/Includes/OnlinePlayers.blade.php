@@ -1,5 +1,4 @@
 <!--Online player and server name -->
-
 <section>
 
     <div
@@ -12,8 +11,8 @@
     <!--Online player counter-->
 
     <div class="grid grid-cols-1 p-2">
-        <div class="my-4 text-xl text-center group grow place-self-center">
-            <div class="p-2 text-indigo-300 bg-gray-500 rounded-lg group-hover:text-red-400">Currently
+        <div class="p-2 my-4 text-xl text-center rounded-lg box-decoration-clone bg-gradient-to-r from-slate-600 via-stone-600 to-slate-600 group grow place-self-center">
+            <div class="text-indigo-300 group-hover:text-red-400">Currently
                 <span class="px-1 font-bold text-red-400 group-hover:text-blue-300"
                     data-playercounter-ip="worldofapollo.com">0
                 </span> Other players Online

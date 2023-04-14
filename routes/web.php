@@ -14,17 +14,19 @@ use App\Http\Controllers\PageController;
 |
 */
 Route::get('/home', [PageController::class, 'Home'])->name('index');
+
 Route::get('/', function () {
     return view('Pages.Home.index');
+});  
 
-//* Direct url redirect //*
+Route::get('/online', function () {
+    return view('Pages.Online_Players.index');
+});
+
 Route::get('/discord', [PageController::class, 'Discord']);
 Route::get('/apply', [PageController::class, 'McForum']);
-//* End of Direct url redirect //*
 
 Route::get('/wiki', [PageController::class, 'Wiki'])->name('index');
 Route::get('/blog', [PageController::class, 'Blog'])->name('index');
 
-
-  
-});  
+Route::get('/dynmap', [PageController::class, 'Dynmap'])->name('index');
