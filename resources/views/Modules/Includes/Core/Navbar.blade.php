@@ -1,6 +1,6 @@
 <nav class="flex justify-center px-4 text-gray-800 bg-transparent">
-  <div class="container py-2">
-    <hr class="h-px mt-3 border-gray-300 border-none dark:bg-gray-700">
+  <div class="container ">
+    <hr class="h-px border-gray-300 border-none dark:bg-gray-700">
     <div class="flex flex-col items-center justify-between mt-3 md:flex-row">
       <!-- Logo -->
       @include('Modules.Includes.Core.Apollo-Logo')
@@ -12,14 +12,15 @@
           <!-- Always show -->
           <a href="{{ route('home') }}" class="my-nav-items">Home</a>
 
-          <!-- Donate button -->
-          <div class="inline-flex my-0 my-nav-items">
+          <!-- Donate button -->  
+        
+          <div class="inline-flex my-nav-items">
           <form  action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="business" value="{{ env('PAYPAL_BUSINESS_EMAIL') }}">
             <input type="hidden" name="cmd" value="_donations">
             <input type="hidden" name="item_name" value="WorldofApollo_Donations">
             <input type="hidden" name="currency_code" value="USD">
-            <button type="submit" name="submit" class="flex mx-2 space-x-6 uppercase bg-gray-900 shadow md:space-x-8 my-nav-items bg-opacity-20 grow">
+            <button type="submit" name="submit" class="uppercase my-nav-items">
               Donate
             </button>
           </form>

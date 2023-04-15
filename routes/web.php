@@ -1,8 +1,5 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
-
-use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,15 +10,12 @@ use App\Http\Controllers\PageController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+use App\Http\Controllers\HomeController;
 Route::view('/', 'Pages.Home.index')->name('home');
+Route::get('home', [HomeController::class, 'Home'])->name('index');
 
-Route::get('home', [PageController::class, 'Home'])->name('index');
 
-
-Route::get('/online', function () {
-    return view('Pages.Online_Players.index');
-});
-
+use App\Http\Controllers\PageController;
 
 Route::get('/discord', [PageController::class, 'Discord'])->name('discord');
 
@@ -35,3 +29,5 @@ Route::get('/dynmap', [PageController::class, 'dynmap'])->name('dynmap');
 Route::get('/donate', function () {
     return view('Pages.Donate.index');
 });
+
+

@@ -12,10 +12,7 @@ class PageController extends Controller
      *  this is done in order to keep web.php small and easy to read.
      */
 //
-   /** Apollo home-Page */
-    public function Home(){
-        return view('Pages.Home.index');
-    }
+
    /** Rederect to mcforum website */
     public function McForum(){
         return redirect()->away('https://www.minecraftforum.net/forums/servers-java-edition/pc-servers/3022300-the-world-of-apollo-1-17-1-semi-vanilla-survival');

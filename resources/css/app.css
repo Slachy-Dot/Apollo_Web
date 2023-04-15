@@ -31,10 +31,9 @@
     @apply object-cover object-center mx-auto duration-300 ease-in-out transform rounded-lg hover:scale-105;
   }
 }
-
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
 /* The following styles are for the footer element */
 footer {

@@ -25,8 +25,14 @@
         <hr class="h-px my-6 bg-gray-300 border-none">
 
         <div>
-            <p class="text-center text-gray-100">World of Apollo </p>
+            <p class="text-center text-gray-100">{{ env('APP_NAME') }}</p>
         </div>
+    <!--    
+        <hr class="flex items-center h-px mx-auto my-6 bg-gray-300 border-none"> -->
 
-    </div>
+    <!-- replace the logo here will replace it on all pages best to upload new images to storage and rename file -->
+
+   <!-- <a href="/"><img loading=lazy class="mx-auto my-nav-logo" src="{{ asset('images/Apollo_logo_full.png') }}" alt="Logo" /></a>
+   -->
+</div>
 </footer>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
+    
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,18 +43,16 @@
     </header>
 
     <!--Web background-->
-    <body style="background-image: url(/storage/images/main/background.jpg);" class="flex flex-col min-h-screen bg-cover lg:">
+   
+    <body style="background-image: url({{ asset('images/background.jpg') }})" class="flex flex-col min-h-screen bg-cover lg:">
 
     <!--Addes pages --> 
         <div id="app" class="flex-1">
 
          @yield('content')
-
       
     </div>
     @include('Modules.Includes.Footer ')
 
   </body>
 </html>
-
-
