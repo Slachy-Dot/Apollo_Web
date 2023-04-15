@@ -12,6 +12,9 @@
 @include('Modules.Includes.Staff.Main')
 
 
+
+@include('Modules.Includes.Segments.Cards.Main')
+
 <!-- Set spacing between footer -->
  <!-- <div class="mt-20"></div> 
 

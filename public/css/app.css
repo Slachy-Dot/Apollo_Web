@@ -3416,6 +3416,16 @@ video {
   width: auto;
 }.w-full {
   width: 100%;
+}.w-4\/5 {
+  width: 80%;
+}.min-w-max {
+  min-width: -moz-max-content;
+  min-width: max-content;
+}.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}.min-w-full {
+  min-width: 100%;
 }.max-w-3xl {
   max-width: 48rem;
 }.max-w-6xl {
