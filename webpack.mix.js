@@ -16,7 +16,6 @@ const mix = require('laravel-mix');
      require('postcss-import'),
      require('tailwindcss'),
  ])
- .postCss('resources/css/background.css', 'public/css');
 
 if (mix.inProduction()) {
     mix.version();

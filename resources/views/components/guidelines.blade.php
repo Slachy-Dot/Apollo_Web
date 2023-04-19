@@ -1,10 +1,13 @@
+<section>
 
     <h2 class="mt-2 text-xl font-extrabold text-center text-indigo-300 my-card-title"> Guidelines </h2>
+
     <div class="divider"></div>
+
     <h2 class="mx-4 mt-2 ml-5 font-mono text-lg font-medium text-indigo-200"> Apollo Discord </h2>
-   
-    <div class="mx-4 my-2 ml-10 font-mono font-medium text-indigo-200 text-md"> 
-       
+
+    <div class="mx-4 my-2 ml-10 font-mono font-medium text-indigo-200 text-md">
+
         <li>
             Using language or posting content which can be considered as racism, sexism, homophobia,
             transphobia, or any other type of hate speech, You are allowed to use profanity to an extent.
@@ -38,11 +41,14 @@
 
     <h2 class="mt-2 text-xl font-extrabold text-center text-indigo-300 my-card-title"> Minecraft </h2>
 
-    <h1 class="mx-4 font-mono text-lg font-semibold text-indigo-200"> 
-           The Discord Guidelines also apply in-game on top of that we have the following Rules 
+    <h1 class="mx-4 font-mono text-lg font-semibold text-indigo-200">
+           The Discord Guidelines also apply in-game on top of that we have the following Rules
     </h1>
-<div class="divider"></div>
-    <div class="mx-4 mt-2 ml-10 font-mono font-medium text-indigo-200 text-md">   
+
+    <div class="divider"></div>
+
+    <div class="mx-4 mt-2 ml-10 font-mono font-medium text-indigo-200 text-md">
+
         <li class="mt-2" >
             No Stealing & No Griefing
         </li>
@@ -62,15 +68,25 @@
             Limit entities per chunk cluster to 300
         </li>
         <li class="mt-2" >
+
             Claim and label all of your creations, including nether hub tunnels and shops
+
         </li>
         <li class="mt-2" >
+
             Make an AWOL post if you expect to be offline for 60+ days
+
         </li>
         <li class="mt-2" >
+
             Do not build anything inside the spawn chunks unless approved by an admin
+
         </li>
         <li class="mt-2" >
+
             Refrain from building within clear sight of another project without approval.
+
         </li>
-    </div> 
+
+    </div>
+</section>

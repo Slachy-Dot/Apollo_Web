@@ -1,32 +1,34 @@
-@extends('Modules.layouts.Apollo')
+@include('Modules.layouts.Apollo')
 
-@section('content')
-  <!-- PLAYER HEADS AND TOOL NEWS -->
-  <div class="container w-24 max-w-xs px-4 py-8 mx-auto mt-20:">
-    <div class="bg-gray-700 border-4 border-blue-400 shadow-2xl">
-      <img 
-        class="object-cover w-full h-full"  
-        alt="Wanderer"
-        src="{{ asset('storage/images/misc/wander.jpg') }}"
-        loading="lazy">
+<x-Navbar/>
+
+<x-Onlineplayers/>
 
 
+<x-Cards>
+    <div class="mx-auto bg-gray-700 border-2 border-blue-400 rounded shadow-2xl border-opacity-60">
 
-    <div class="px-5 pt-6 mx-auto mt-2 text-lg font-semibold text-center text-gray-800 bg-gray-300 border-l-2 border-gray-200 border-opacity-60">
-      <h1>Obtain Player Heads from the Wandering Trader</h1>
-      <span class="time">18-Feb-2021</span>
+        <img class="object-cover w-full h-full" alt="Wanderer" src="{{ asset('storage/images/misc/wander.jpg') }}" loading="lazy">
+
+    <div class="pt-0 border-t-4 border-blue-400">
+
+    <div class="px-5 pt-4 mx-auto text-lg font-semibold text-center text-gray-800 bg-gray-300 ">
+
+        <h1>Obtain Player Heads from the Wandering Trader</h1>
+
+        <span class="time">18-Feb-2021</span>
 
       <ul class="mt-4 font-mono text-base font-semibold">
         <li>
-          You are now able to obtain 
-          <em class="italic text-indigo-400">Player Heads</em> 
+          You are now able to obtain
+          <em class="italic text-indigo-400">Player Heads</em>
           by trading with a naturally spawned Wandering Trader.
         </li>
         <li>
-          There is an 80% chance that a Wandering Trader spawns with a 
-          <em class="italic text-indigo-400">Player Head Trade</em>, 
-          and a 40% chance of having multiple 
-          <em class="italic text-indigo-400">Player Heads Trades</em> 
+          There is an 80% chance that a Wandering Trader spawns with a
+          <em class="italic text-indigo-400">Player Head Trade</em>,
+          and a 40% chance of having multiple
+          <em class="italic text-indigo-400">Player Heads Trades</em>
           in stock.
         </li>
       </ul>
@@ -97,4 +99,9 @@
     </div>
   </div>
 </div>
-@endsection
+
+</x-Cards>
+
+   <div class="mt-40">
+
+<x-Footer/>

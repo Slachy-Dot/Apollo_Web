@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,38 +21,10 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
-        <script src="https://leonardosnt.github.io/mc-player-counter/dist/mc-player-counter.min.js" defer></script>
 
-        <script>
-            fetch('https://api.mcsrvstat.us/2/Worldofapollo.com')
-                .then(response => response.json())
-                .then(data => {
-                    console.log(data.players.list)
-                    let pList = document.getElementById('list')
-                    pList.innerText = data.players.list
-                    //display some data on page
-                    //using data.players.list
 
-                });
 
-        </script>
     </head>
-
-    <header>
-        @include('Modules.Includes.Core.Navbar ')
-    </header>
-
     <!--Web background-->
-   
-    <body style="background-image: url({{ asset('images/background.jpg') }})" class="flex flex-col min-h-screen bg-cover lg:">
-
-    <!--Addes pages --> 
-        <div id="app" class="flex-1">
-
-         @yield('content')
-      
-    </div>
-    @include('Modules.Includes.Footer ')
-
-  </body>
+    <body style="background-image: url({{ asset('images/background.jpg') }})" class="flex flex-col min-h-screen bg-cover lg:"></body>
 </html>
